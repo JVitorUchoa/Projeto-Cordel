@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 50px;
+}
+
+header h1, #autor{
+    font-family: 'passion one';
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+}
+
+header p, div{
+    display: inline-block;
+    gap: 10px;
+}
+
+main{
+    padding: 10vh 0px;
+    line-height: 2em;
+}
+
+main p{
+    font-family: 'sriracha';
+    font-size: 2vw;
+    padding: 15px;
+}
+
+.imagem_fundo{
+    background-position: left center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    
+    padding: 0px;
+    margin: 0px;
+
+    position: relative;
+}
+
+#img1{
+    background-image: url(imagens/girassol.jpg);
+}
+
+#img2{
+    background-image: url(imagens/papel.jpg);
+}
+
+.texto_em_img{
+    background-color: rgba(0, 0, 0, 0.288);
+    color: aliceblue;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
